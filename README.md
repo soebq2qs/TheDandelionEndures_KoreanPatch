@@ -1,39 +1,81 @@
-민들레는 견딘다 (The Dandelion Endures / タンポポは耐える。) 한국어 패치 v1.0
-==========================================================================
+# 민들레는 견딘다 한국어 패치 v1.0
 
-대상 버전: Unity 2022.3.59f1 빌드
+『タンポポは耐える。』(The Dandelion Endures) 비공식 한국어 패치입니다.
 
-[설치]
+> 비공식 팬 번역이며 MugenOllieGames와 관계가 없습니다.
+
+## 설치
+
 1. 게임을 종료합니다.
-2. TheDandelionEndures_KoreanPatch_v1.0.exe를 실행하고 "1) 한국어 패치 설치"를 고릅니다.
-   - Steam 설치 폴더는 자동으로 찾습니다.
-     찾지 못하면 게임 폴더 경로를 입력하거나(폴더를 창에 끌어다 놓아도 됨),
-     exe를 게임 폴더("The Dandelion Endures.exe"가 있는 곳)에 넣고 실행하세요.
-   - 모든 파일을 먼저 확인합니다. 게임 버전이 다르면 아무것도 바꾸지 않고 멈춥니다.
-   - 원본 파일은 게임 폴더의 KoreanPatch_Backup 폴더에 자동으로 백업됩니다.
-3. 게임을 실행하고 타이틀 화면 오른쪽 아래 Language 메뉴에서 "한국어"를 고릅니다.
-   선택한 언어는 다음 실행부터 자동으로 유지됩니다.
+2. `TheDandelionEndures_KoreanPatch_v1.0.exe`를 실행하고 **"1) 한국어 패치 설치"** 를 고릅니다.
+   - 게임 폴더는 자동으로 찾습니다.
+   - 못 찾으면 게임 폴더를 창에 끌어다 놓으세요.
+3. 게임을 실행하고 타이틀 화면 오른쪽 아래 **Language → 한국어**를 고릅니다.
+   - 한 번 고르면 다음 실행부터 그대로 유지됩니다.
 
-[원래대로 되돌리기]
-같은 exe를 실행해 "2) 원래대로 되돌리기"를 고릅니다.
-백업이 없으면 Steam의 "게임 파일 무결성 검사"로 원본을 다시 받을 수 있습니다.
+## 원래대로 되돌리기
 
-[주의]
-- 이 exe에는 게임 데이터가 없고, 원본과 달라진 부분만 들어 있습니다.
-- 게임이 업데이트되면 이 버전은 설치되지 않습니다. 새 버전용 패치를 사용하세요.
-- 서명되지 않은 exe라서 Windows SmartScreen이 경고할 수 있습니다.
-  "추가 정보 → 실행"을 누르기 전에 릴리스 페이지의 SHA-256 값과 같은지 확인하세요.
-- 비공식 팬 번역이며 MugenOllieGames와 관계가 없습니다.
+같은 exe를 실행해 **"2) 원래대로 되돌리기"** 를 고릅니다.
+그래도 안 되면 Steam에서 **게임 파일 무결성 검사**를 하면 원래대로 돌아갑니다.
 
-[변경점]
-CHANGELOG.md를 보세요.
+## 알아둘 점
 
-[글꼴 라이선스]
-한글 글리프는 NAVER의 나눔스퀘어 네오(NanumSquare Neo)에서 만들었습니다.
-나눔글꼴은 SIL Open Font License 1.1을 따릅니다. 자세한 내용은 LICENSE-OFL.txt를 보세요.
-(설치하면 게임 폴더에 KoreanPatch_LICENSE-OFL.txt로도 복사됩니다.)
+- Windows가 "PC 보호" 경고를 띄울 수 있습니다. **추가 정보 → 실행**을 누르면 됩니다.
+- 게임이 업데이트되면 이 패치는 설치되지 않습니다. 새 버전 패치를 기다려 주세요.
+- 게임 버전이 맞지 않으면 아무 파일도 바꾸지 않고 멈추니 안심하세요.
+- 원본 파일은 게임 폴더의 `KoreanPatch_Backup`에 자동으로 백업됩니다.
 
+## 패치노트
 
+### v1.0 — 2026-10-28
+
+- Language 메뉴에 **한국어** 추가
+- 게임 전체 한국어 번역
+  - 메뉴, 튜토리얼, 도감, 영상 자막, 미션, 능력 설명, 엔딩 크레딧
+- 한글 폰트 추가 (나눔스퀘어 네오)
+  - 원작 글꼴과 굵기·높이를 맞춰 섞여도 어색하지 않게 했습니다.
+- 한글이 단어 단위로 줄바꿈되도록 수정
+- 다른 언어(일본어·영어·중국어 등)는 바뀌지 않습니다.
+- SETTINGS, 볼륨 설정, Solar energy 등 일부 UI는 원작에서도 모든 언어가 영어라서 그대로 두었습니다.
+
+<details>
+<summary>번역 메모</summary>
+
+- 일본어 원문을 기준으로 번역하고, 영문판은 참고만 했습니다.
+- 耐える는 **견디다**, 巡る는 **돌고 돈다**로 통일했습니다.
+- 튜토리얼은 친근한 반말, 메뉴는 존댓말, 도감은 어린 플레이어도 읽기 쉬운 말로 썼습니다.
+- 절기는 한국 이름(입하·망종·상강 등)으로, こどもの日는 "어린이날"로 옮겼습니다.
+- ニホンタンポポ는 학명이 같기에 "토종 민들레"로 옮겼습니다.
+- 장식용 한자 `夏`와 일본어 곡명·아티스트명은 영문판처럼 그대로 두었습니다.
+
+</details>
+
+<details>
+<summary>English / 日本語</summary>
+
+**English**
+- Unofficial Korean patch. Adds "한국어" to the Language menu and translates the whole game.
+- Adds Hangul glyphs (NanumSquare Neo) matched to the original font.
+- Other languages are unchanged.
+- Run the exe and choose "1) 한국어 패치 설치" to install, or "2) 원래대로 되돌리기" to restore.
+
+**日本語**
+- 非公式の韓国語パッチです。Language メニューに「한국어」を追加し、ゲーム全体を翻訳しました。
+- 元のフォントに合わせたハングル（NanumSquare Neo）を追加しました。
+- 他の言語は変更していません。
+- exe を実行し、「1) 한국어 패치 설치」でインストール、「2) 원래대로 되돌리기」で元に戻せます。
+
+</details>
+
+## 글꼴 라이선스
+
+한글은 NAVER의 **나눔스퀘어 네오**로 만들었으며, SIL Open Font License 1.1을 따릅니다.
+설치하면 게임 폴더에 `KoreanPatch_LICENSE-OFL.txt`로도 복사됩니다.
+
+<details>
+<summary>SIL Open Font License 1.1 전문</summary>
+
+```
 This patch contains Hangul glyphs (SDF atlas) generated from the following font:
 
   NanumSquare Neo Light
@@ -130,3 +172,6 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
+```
+
+</details>
